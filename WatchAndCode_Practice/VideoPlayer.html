@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Video Player</title>
+    <style>
+        video {
+            height: 80vh;
+            width: 90%;
+            margin: 20px 0 10px 50px;
+        }
+        #name, #rate, #video_file {
+            display: block;
+            font-weight: 600;
+            margin-top: 10px;
+            margin-left: 50px
+        }
+    </style>
+</head>
+<body>
+    <div id="name"></div>
+    <input type="file" id="video_file">
+    <video src="./videos/AccountingJS_18_RegEx.mp4" type="video/mp4" controls>
+    </video>
+    <div id="rate"></div>
+<script>
+    var vid = document.querySelector("video");
+    vid.playbackRate = 1.75;
+
+    var nameDiv = document.querySelector('#name');
+    nameDiv.innerHTML = vid.src.split("/").pop();
+
+    var rateDiv = document.querySelector('#rate');
+
+    document.querySelector('#video_file').addEventListener('change', function (evt) {
+      if ( this.value ) {
+        var fileName = this.value.split('\\').pop();
+        console.log(fileName);
+        vid.src = './videos/' + fileName;
+        vid.playbackRate = 1.75;
+        vid.play();
+        nameDiv.innerHTML = fileName;
+      }
+    });
+
+    vid.addEventListener('click', function(evt) {
+      if (this.paused) {
+        this.play();
+      } else {
+        this.pause();
+      }
+    });
+
+    document.addEventListener('keyup', function (evt) {
+        // console.log(evt.key);
+        var keyname = evt.key;
+        switch(keyname) {
+          case 'ArrowDown':
+            vid.playbackRate -= 0.25;
+            rateDiv.innerHTML = vid.playbackRate;
+            break;
+          case 'ArrowUp':
+            vid.playbackRate += 0.25;
+            rateDiv.innerHTML = vid.playbackRate;
+            break;
+          case 'ArrowRight':
+            seekTo(5);
+            break;
+          case 'ArrowLeft':
+            seekTo(-5);
+            break;
+          case ' ':
+            if (vid.paused) {
+              vid.play();
+            } else {
+              vid.pause();
+            }
+
+        }
+
+        function seekTo(value) {
+          var seekToTime = vid.currentTime + value;
+          if( seekToTime < 0 || seekToTime > vid.duration )
+            return;
+
+          vid.currentTime = seekToTime;
+        }
+    });
+</script>
+</body>
+</html>

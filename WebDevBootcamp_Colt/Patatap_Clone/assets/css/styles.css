@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  background: linear-gradient(to right, #2bc0e4, #eaecc6);
+  font-family: Roboto, SansSerif;
+}
+
+#container {
+  box-shadow: 0 0 3px rgba(0,0,0, 0.3);
+  margin: 100px auto;
+  width: 360px;
+}
+
+#header {
+  align-items: center;
+  background-color: #3476b1;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+#header h1 {
+  padding-left: 32px;
+}
+
+input {
+  background-color: #d3d3d3b8;
+  border: 0;
+  color: #2980b9;
+  font-size: 1rem;
+  height: 30px;
+  outline: none;
+  padding: 6px 38px;
+  width: inherit;
+}
+
+input:focus {
+  background-color: white;
+}
+
+button {
+  background-color: #3476b1;
+  border: 0;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+}
+
+#items li {
+  padding: 8px 0;
+  background-color: white;
+}
+
+#items li span {
+  padding: 0 6px;
+}
+
+#items li:nth-child(2n) {
+  background-color: lightgray;
+}
+
+.strike {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.fa-trash {
+  background-color: #e74c3c;
+  color: white;
+  display: inline;
+  opacity: 0;
+  padding: 8px;
+  text-align: center;
+  width: 0;
+  transition: 0.3s linear;
+}
+
+li:hover .fa-trash {
+  opacity: 1;
+  width: 30px;
+}

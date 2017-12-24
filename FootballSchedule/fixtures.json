@@ -1,0 +1,631 @@
+{
+  "timeFrameStart": "2017-10-02",
+  "timeFrameEnd": "2017-10-31",
+  "count": 24,
+  "fixtures": [
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164812"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/548"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/600"
+        }
+      },
+      "date": "2017-10-17T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "AS Monaco FC",
+      "awayTeamName": "Besiktas JK",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164789"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/754"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/559"
+        }
+      },
+      "date": "2017-10-17T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "Spartak Moskva",
+      "awayTeamName": "Sevilla FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164824"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/752"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/4"
+        }
+      },
+      "date": "2017-10-17T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "APOEL Nicosia",
+      "awayTeamName": "Borussia Dortmund",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164800"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/675"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/724"
+        }
+      },
+      "date": "2017-10-17T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "Feyenoord Rotterdam",
+      "awayTeamName": "Shakhtar Donetsk",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164825"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/86"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/73"
+        }
+      },
+      "date": "2017-10-17T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "Real Madrid CF",
+      "awayTeamName": "Tottenham Hotspur FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164788"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/734"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/64"
+        }
+      },
+      "date": "2017-10-17T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "NK Maribor",
+      "awayTeamName": "Liverpool FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164801"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/65"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/113"
+        }
+      },
+      "date": "2017-10-17T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "Manchester City FC",
+      "awayTeamName": "SSC Napoli",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164813"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/721"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/503"
+        }
+      },
+      "date": "2017-10-17T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "Red Bull Leipzig",
+      "awayTeamName": "FC Porto",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164765"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/611"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/78"
+        }
+      },
+      "date": "2017-10-18T16:00:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "FK Qaraba? A?dam",
+      "awayTeamName": "Club Atlético de Madrid",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164764"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/61"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/100"
+        }
+      },
+      "date": "2017-10-18T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "Chelsea FC",
+      "awayTeamName": "AS Roma",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164752"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/726"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/524"
+        }
+      },
+      "date": "2017-10-18T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "RSC Anderlecht",
+      "awayTeamName": "Paris Saint-Germain",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164753"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/5"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/732"
+        }
+      },
+      "date": "2017-10-18T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "FC Bayern München",
+      "awayTeamName": "Celtic FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164740"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/495"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/66"
+        }
+      },
+      "date": "2017-10-18T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "SL Benfica",
+      "awayTeamName": "Manchester United FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164741"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/751"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/729"
+        }
+      },
+      "date": "2017-10-18T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "CSKA Moscow",
+      "awayTeamName": "FC Basel",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164776"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/81"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/654"
+        }
+      },
+      "date": "2017-10-18T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "FC Barcelona",
+      "awayTeamName": "Olympiacos F.C.",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164777"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/498"
+        }
+      },
+      "date": "2017-10-18T18:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 3,
+      "homeTeamName": "Juventus Turin",
+      "awayTeamName": "Sporting CP",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164738"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/729"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/751"
+        }
+      },
+      "date": "2017-10-31T19:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 4,
+      "homeTeamName": "FC Basel",
+      "awayTeamName": "CSKA Moscow",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164915"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/100"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/61"
+        }
+      },
+      "date": "2017-10-31T19:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 4,
+      "homeTeamName": "AS Roma",
+      "awayTeamName": "Chelsea FC",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164750"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/732"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/5"
+        }
+      },
+      "date": "2017-10-31T19:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 4,
+      "homeTeamName": "Celtic FC",
+      "awayTeamName": "FC Bayern München",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164739"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/66"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/495"
+        }
+      },
+      "date": "2017-10-31T19:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 4,
+      "homeTeamName": "Manchester United FC",
+      "awayTeamName": "SL Benfica",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164762"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/78"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/611"
+        }
+      },
+      "date": "2017-10-31T19:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 4,
+      "homeTeamName": "Club Atlético de Madrid",
+      "awayTeamName": "FK Qaraba? A?dam",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164774"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/654"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/81"
+        }
+      },
+      "date": "2017-10-31T19:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 4,
+      "homeTeamName": "Olympiacos F.C.",
+      "awayTeamName": "FC Barcelona",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164775"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/498"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/109"
+        }
+      },
+      "date": "2017-10-31T19:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 4,
+      "homeTeamName": "Sporting CP",
+      "awayTeamName": "Juventus Turin",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    },
+    {
+      "_links": {
+        "self": {
+          "href": "http://api.football-data.org/v1/fixtures/164751"
+        },
+        "competition": {
+          "href": "http://api.football-data.org/v1/competitions/464"
+        },
+        "homeTeam": {
+          "href": "http://api.football-data.org/v1/teams/524"
+        },
+        "awayTeam": {
+          "href": "http://api.football-data.org/v1/teams/726"
+        }
+      },
+      "date": "2017-10-31T19:45:00Z",
+      "status": "SCHEDULED",
+      "matchday": 4,
+      "homeTeamName": "Paris Saint-Germain",
+      "awayTeamName": "RSC Anderlecht",
+      "result": {
+        "goalsHomeTeam": null,
+        "goalsAwayTeam": null
+      },
+      "odds": null
+    }
+  ]
+}

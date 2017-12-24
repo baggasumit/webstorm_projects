@@ -1,0 +1,97 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #f0efd1;
+}
+
+.container {
+  margin: 5% 8% 0 8%;
+}
+
+header {
+  background-color: #bf3211;
+  margin: 0;
+
+}
+
+h1 {
+  margin: 0 0 0 8%;
+  padding: 1.5em 0;
+  color: #fff;
+
+}
+
+h2 {
+  color: #823b0f;
+}
+
+.progress-bar {
+  background-color: #bf3211;
+  color: #f0efd1;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  margin-top: 0.5em;
+}
+
+.progress-bar span {
+  font-size: 2em;
+}
+.btn {
+  padding:5px;
+  background-color: #f0efd1;
+  border: 1px solid #191919;
+  color:#191919;
+  text-decoration:none;
+  border-radius: 0 5px 5px 0;
+  margin-bottom: 0.5em;
+}
+
+.btn:hover {
+  background-color: #191919;
+  color:#f0efd1;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+p {
+  margin-bottom: 0.5em;
+}
+
+footer {
+  margin-top: 2em;
+}
+
+/*.btn {*/
+  /*border: none;*/
+  /*font-family: inherit;*/
+  /*font-size: inherit;*/
+  /*color: inherit;*/
+  /*background: none;*/
+  /*cursor: pointer;*/
+  /*padding: 25px 80px;*/
+  /*display: inline-block;*/
+  /*margin: 15px 30px;*/
+  /*text-transform: uppercase;*/
+  /*letter-spacing: 1px;*/
+  /*font-weight: 700;*/
+  /*outline: none;*/
+  /*position: relative;*/
+  /*-webkit-transition: all 0.3s;*/
+  /*-moz-transition: all 0.3s;*/
+  /*transition: all 0.3s;*/
+/*}*/
+
+/*!* Button 1 *!*/
+/*.btn-1 {*/
+  /*border: 3px solid #fff;*/
+  /*color: #fff;*/
+/*}*/
+
+/*!* Button 1a *!*/
+/*.btn-1a:hover,*/
+/*.btn-1a:active {*/
+  /*color: #0e83cd;*/
+  /*background: #fff;*/
+/*}*/

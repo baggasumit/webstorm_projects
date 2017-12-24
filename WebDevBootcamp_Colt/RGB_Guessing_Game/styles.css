@@ -1,0 +1,79 @@
+body {
+  background-color: #201f20;
+}
+
+/**************************
+  Header
+ **************************/
+
+header {
+  background-color: #3498db;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+header #rgb-color {
+  font-size: 3rem;
+}
+
+header * {
+  padding: 5px;
+}
+
+nav {
+  background-color: #fff;
+  color: #3498db;
+  display: flex;
+  justify-content: space-around;
+  padding: 6px;
+  text-transform: uppercase;
+}
+
+#reset {
+  cursor: pointer;
+  padding: 6px;
+}
+
+#color-options {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#color-options ul {
+  background-color: #201f20;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#color-options li {
+  border-radius: 10px;
+  display: inline-block;
+  height: 150px;
+  width: 30%;
+  margin: 1.66%;
+}
+
+.vanish {
+  opacity: 0;
+}
+
+#easy, #hard {
+  cursor: pointer;
+  padding: 6px;
+}
+
+#reset:hover, #easy:hover, #hard:hover, .selected {
+  background-color: #3498db;
+  color: #fff;
+}
+
+#message {
+  width: 100px;
+}
+
