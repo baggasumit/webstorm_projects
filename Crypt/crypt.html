@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crypt</title>
+</head>
+<body>
+    <script>
+        const coins = {
+          "ETH" : 11.83,
+          "BAT" : 6765.0,
+          "XRP" : 398.73,
+          "TRX" : 5794.2,
+          "MKR" : 3.31,
+        }
+
+        const costBasis = {
+          "ETH" : 6000,
+          "BAT" : 1450,
+          "XRP" : 1000,
+          "TRX" : 450,
+          "MKR" : 1000,
+        }
+
+        var $ = new Intl.NumberFormat('en-US', {
+          style: 'currency',
+          currency: 'USD',
+          minimumFractionDigits: 2,
+        });
+
+        String.prototype.padLeft = function(length) {
+          return ' '.repeat(Math.max(0, length - this.length)) + this;
+        };
+
+        async function getCoinDetails() {
+          // let response = await fetch('https://api.coinmarketcap.com/v1/ticker/');
+          let response = await fetch('https://min-api.cryptocompare.com/data/pricemulti?fsyms=ETH,BAT,MKR,XRP,TRX,SNT&tsyms=USD');
+          let data = await response.json();
+
+          let total = 0;
+          for (let coin in coins) {
+            const currPrice = parseFloat(data[coin]["USD"]);
+            const currValue = currPrice * coins[coin];
+            const initialCost = parseFloat(costBasis[coin]);
+            const change = (currValue/initialCost).toFixed(2) + 'x';
+            console.log(coin, currPrice.toFixed(2).padLeft(10), $.format(currValue).padLeft(12),
+              $.format(initialCost).padLeft(12), change.padLeft(7));
+            total += currValue;
+
+          }
+          console.log('%cTotal:           ' +  $.format(total), 'color: blue');
+
+        }
+
+        getCoinDetails();
+
+    </script>
+</body>
+</html>
